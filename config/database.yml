@@ -52,11 +52,11 @@ test:
 
 production:
   adapter:  postgresql
-  host:     localhost
+  host:     ec2-54-243-249-132.compute-1.amazonaws.com
   encoding: unicode
-  database: mrb_las
+  database: d601fsbil8ajif
   pool:     5
-  username: postgres
-  password:
+  username: grtkbxbtrxurrg
+  password: mlsCJrFRMYE8P9-KUdlGUIQLq6
   template: template0
 
