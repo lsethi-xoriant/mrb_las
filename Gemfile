@@ -63,4 +63,7 @@ gem 'materialize-sass'
 gem 'modernizr-rails'
 gem 'bourbon'
 gem 'normalize-rails'
-
+group :production do
+	gem 'rails_12factor'
+	gem 'aws-sdk', '< 2.0'
+end 
